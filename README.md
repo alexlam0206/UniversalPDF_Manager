@@ -36,32 +36,6 @@ A native macOS PDF manager and editor built with Swift, SwiftUI, AppKit, PDFKit,
 3. Product → Archive
 4. In Organizer: Distribute App → Copy App (or Developer ID / Notarization as needed) → export `.app`
 
-## Package the .app (CLI)
-```bash
-# 1) Build Release .app
-xcodebuild -scheme "Universal PDF Manager" -configuration Release -derivedDataPath build
-# 2) Output .app
-# build/Build/Products/Release/Universal PDF Manager.app
-# 3) Zip (keep the parent folder)
-ditto -c -k --keepParent "build/Build/Products/Release/Universal PDF Manager.app" Universal_PDF_Manager.zip
-```
-
-> Advanced (optional): use `xcodebuild archive` + `-exportArchive` with an ExportOptions.plist for code signing/notarization flows.
-
-## Push to GitHub (first-time)
-```bash
-git init
-git add .
-git commit -m "Initial commit: Universal PDF Manager"
-git branch -M main
-# HTTPS (replace with your repo URL)
-git remote add origin https://github.com/<your-account>/<repo>.git
-# Or SSH
-# git remote add origin git@github.com:<your-account>/<repo>.git
-
-git push -u origin main
-```
-
 Release suggestion
 1) Rebuild via CLI above → produce `Universal_PDF_Manager.zip`
 2) Create a GitHub Release and attach the zip
@@ -87,4 +61,4 @@ Release suggestion
 Bugs, ideas, and improvements are welcome! Please open an issue, submit a PR, or fork the repo. If you encounter build/runtime issues on your setup, include your macOS/Xcode versions and steps to reproduce.
 
 ## License
-MIT (adjust as needed). 
+MIT 
