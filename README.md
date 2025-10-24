@@ -6,6 +6,16 @@ A native macOS PDF manager and editor built with Swift, SwiftUI, AppKit, PDFKit,
 
 `The Universal PDF Manager is under MIT License. `
 
+## Star History
+
+<a href="https://www.star-history.com/#alexlam0206/gemini-vpn-proxy&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=alexlam0206/gemini-vpn-proxy&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=alexlam0206/gemini-vpn-proxy&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=alexlam0206/gemini-vpn-proxy&type=date&legend=top-left" />
+ </picture>
+</a>
+
 ## Requirements
 - macOS 15.0+
 - Xcode 16 (or a compatible recent version)
