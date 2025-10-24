@@ -1,4 +1,4 @@
-# Universal PDF Manager (macOS)
+# Universal PDF Manager
 
 A native macOS PDF manager and editor built with Swift, SwiftUI, AppKit, PDFKit, and Vision.
 
